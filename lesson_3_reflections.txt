@@ -5,3 +5,14 @@ When would you want to create a remote repository rather than keeping all your w
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 	If there are some changes on my local repository, it might need to merge the local version and the github one.
+
+	git push [remote_name] [local_branch_name]
+	ex) git push origin master
+	pull origin master
+	git remote
+	git remote -v
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    forks: clone occurred only in github
+
