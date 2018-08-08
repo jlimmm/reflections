@@ -6,13 +6,20 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	If there are some changes on my local repository, it might need to merge the local version and the github one.
 
-	git push [remote_name] [local_branch_name]
-	ex) git push origin master
-	pull origin master
-	git remote
-	git remote -v
-
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
     forks: clone occurred only in github
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+
+
+=== cheatsheet
+
+	git push [remote_name] [local_branch_name]
+	ex) git push origin master
+	git pull origin master
+	git remote
+	git remote -v
+	git branch -a
+	git fetch origin
